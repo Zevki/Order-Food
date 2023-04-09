@@ -1,10 +1,12 @@
-package com.example.appfood;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.appfood.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.appfood.R;
 
 public class Welcome extends AppCompatActivity {
 
@@ -15,10 +17,10 @@ public class Welcome extends AppCompatActivity {
     }
 
     public void register(View view) {
-        startActivity(new Intent(Welcome.this,Register.class));
+        startActivity(new Intent(Welcome.this, Register.class));
     }
 
     public void login(View view) {
-        startActivity(new Intent(Welcome.this,Login.class));
+        startActivity(new Intent(Welcome.this, Login.class));
     }
 }
