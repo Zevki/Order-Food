@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.appfood.MainActivity;
 import com.example.appfood.R;
 
 public class Login extends AppCompatActivity {
@@ -19,6 +21,6 @@ public class Login extends AppCompatActivity {
     }
 
     public void mainActivity(View view) {
-        startActivity(new Intent(Login.this,MainActivity.class));
+        startActivity(new Intent(Login.this, MainActivity.class));
     }
 }

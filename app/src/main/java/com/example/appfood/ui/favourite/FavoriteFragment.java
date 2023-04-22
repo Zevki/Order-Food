@@ -1,4 +1,6 @@
-package com.example.appfood.ui.gallery;
+package com.example.appfood.ui.favourite;
+
+import static com.example.appfood.R.layout.fragment_favourite;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,13 +10,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.appfood.R;
-
-public class DailyMealFragment extends Fragment {
+public class FavoriteFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.daily_meal_fragment, container, false);
+
+        View root = inflater.inflate(fragment_favourite, container, false);
+
         return root;
     }
-
 }

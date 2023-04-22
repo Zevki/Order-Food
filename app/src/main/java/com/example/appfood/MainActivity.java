@@ -1,4 +1,4 @@
-package com.example.appfood.activities;
+package com.example.appfood;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,7 +10,6 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.appfood.R;
 import com.example.appfood.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationView;
 
