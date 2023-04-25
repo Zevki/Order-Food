@@ -46,4 +46,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10") {
         exclude module: "kotlin-stdlib"
     }
+
+    //Rounded Imageview
+    implementation 'com.makeramen:roundedimageview:2.3.0'
 }
