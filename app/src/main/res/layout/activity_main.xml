@@ -27,15 +27,15 @@
         app:itemTextColor="@color/white">
 
         <Button
-            android:layout_margin="5dp"
+            android:id="@+id/btn_logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Log Out"
             android:layout_gravity="bottom"
-            android:textAllCaps="false"
-            android:textStyle="bold"
+            android:layout_margin="5dp"
             android:padding="15dp"
-            />
+            android:text="Log Out"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
 
         
     </com.google.android.material.navigation.NavigationView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369831036401",
+    "project_id": "login-register-firebase-fa61c",
+    "storage_bucket": "login-register-firebase-fa61c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369831036401:android:46869817d4bfa8185b7050",
+        "android_client_info": {
+          "package_name": "com.example.appfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369831036401-623o7c8vmb0bdp7o1017b9h2lq5of3f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNthy8xMtwdrj2i1Bc9PgIPegOOBpctq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369831036401-623o7c8vmb0bdp7o1017b9h2lq5of3f3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
