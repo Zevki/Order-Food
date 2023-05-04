@@ -48,9 +48,9 @@ public class FirstFragment extends Fragment {
 
         featuredModelList = new ArrayList<>();
 
-        featuredModelList.add(new FeaturedModel(R.drawable.fav1, "Featured 1", "Description 1"));
-        featuredModelList.add(new FeaturedModel(R.drawable.fav2, "Featured 2", "Description 2"));
-        featuredModelList.add(new FeaturedModel(R.drawable.fav3, "Featured 3", "Description 3"));
+        featuredModelList.add(new FeaturedModel(R.drawable.fav1, "Bánh Crepe", "Description 1"));
+        featuredModelList.add(new FeaturedModel(R.drawable.fav2, "Mỳ", "Description 2"));
+        featuredModelList.add(new FeaturedModel(R.drawable.fav3, "Chả Giò", "Description 3"));
 
         featuredAdapter = new FeaturedAdapter(featuredModelList);
         recyclerView.setAdapter(featuredAdapter);
@@ -61,12 +61,12 @@ public class FirstFragment extends Fragment {
 
         featuredVerModelsList = new ArrayList<>();
 
-        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver1, "Featured 1", "Description 1", "4.1", "10:00 - 5:00"));
-        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver2, "Featured 2", "Description 2", "4.5", "10:00 - 5:00"));
-        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver3, "Featured 3", "Description 3", "4.3", "10:00 - 5:00"));
-        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver4, "Featured 4", "Description 4", "3.9", "5:00 - 8:00"));
-        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver5, "Featured 5", "Description 5", "4.9", "5:00 - 8:00"));
-        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver6, "Featured 6", "Description 6", "5.0", "4:00 - 9:00"));
+        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver1, "Hamburger Set 1", "Description 1", "4.1", "10:00 - 5:00"));
+        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver2, "Sushi", "Description 2", "4.5", "10:00 - 5:00"));
+        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver3, "Hamburger Set 2", "Description 3", "4.3", "10:00 - 5:00"));
+        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver4, "Pasta", "Description 4", "3.9", "5:00 - 8:00"));
+        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver5, "Trái Cây", "Description 5", "4.9", "5:00 - 8:00"));
+        featuredVerModelsList.add(new FeaturedVerModel(R.drawable.ver6, "Soup", "Description 6", "5.0", "4:00 - 9:00"));
 
         featuredVerAdapter = new FeaturedVerAdapter(featuredVerModelsList);
         recyclerView2.setAdapter(featuredVerAdapter);
