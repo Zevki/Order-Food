@@ -37,11 +37,11 @@ public class MyCartFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         list = new ArrayList<>();
         list.add(new CartModel(R.drawable.breakfast,"B1","15.000","4.3"));
-        list.add(new CartModel(R.drawable.breakfast,"B2","17.000","4.6"));
-        list.add(new CartModel(R.drawable.breakfast,"B3","19.000","4.8"));
-        list.add(new CartModel(R.drawable.breakfast,"B1","25.000","4.3"));
-        list.add(new CartModel(R.drawable.breakfast,"B2","37.000","4.6"));
-        list.add(new CartModel(R.drawable.breakfast,"B3","20.000","4.8"));
+        list.add(new CartModel(R.drawable.coffee_bacxiu,"Bạc Xĩu","17.000","4.6"));
+        list.add(new CartModel(R.drawable.fav1,"Crepe","19.000","4.8"));
+        list.add(new CartModel(R.drawable.friesphomai,"Fries","25.000","4.3"));
+        list.add(new CartModel(R.drawable.icecream_dau,"Ice Cream","37.000","4.6"));
+        list.add(new CartModel(R.drawable.pizzahaisan,"Pizza Hải Sản","20.000","4.8"));
         cartAdapter = new CartAdapter(list);
         recyclerView.setAdapter(cartAdapter);
 
